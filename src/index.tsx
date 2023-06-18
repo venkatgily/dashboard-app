@@ -1,8 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+
+// Bootstrap CSS
+import "bootstrap/dist/css/bootstrap.min.css";
+
+// Font Awsome
+import "@fortawesome/fontawesome-free/css/all.min.css"; 
 import './index.css';
+import './styles.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
